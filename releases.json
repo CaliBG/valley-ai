@@ -1,13 +1,13 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "date": "2026-10-19",
   "mac": {
-    "url": "https://github.com/CaliBG/valley-ai/releases/download/v0.5.0/Valley-AI-0.5.0-macOS-arm64.dmg",
+    "url": "https://github.com/CaliBG/valley-ai/releases/download/v0.6.0/Valley-AI-0.6.0-macOS-arm64.dmg",
     "format": "DMG",
-    "size": "15.7 MB"
+    "size": "15.8 MB"
   },
   "windows": {
-    "url": "https://github.com/CaliBG/valley-ai/releases/download/v0.5.0/Valley-AI-0.5.0-Windows-x64-setup.exe",
+    "url": "https://github.com/CaliBG/valley-ai/releases/download/v0.6.0/Valley-AI-0.6.0-Windows-x64-setup.exe",
     "format": "EXE",
     "size": "15.1 MB"
   }

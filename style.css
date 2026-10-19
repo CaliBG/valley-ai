@@ -220,3 +220,8 @@ h2 { font-size: 31px; line-height: 1.5; font-weight: 550; letter-spacing: -.8px;
 .os-apple { width: 29px; padding: 0 2px; }
 .os-windows { width: 29px; color: #0078d4; }
 @media (prefers-color-scheme: dark) { .os-windows { color: #67b7f4; } }
+
+.preview-switch { display: flex; padding: 3px; gap: 3px; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; }
+.preview-switch button { border: 0; border-radius: 5px; padding: 6px 15px; font: inherit; font-size: 12px; background: transparent; color: var(--muted); cursor: pointer; }
+.preview-switch button[aria-pressed="true"] { background: var(--bg); color: var(--text); }
+.preview-switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
