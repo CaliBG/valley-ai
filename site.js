@@ -14,7 +14,7 @@
 const previewImage = document.getElementById('workspace-preview');
 document.querySelectorAll('[data-preview]').forEach(button => button.addEventListener('click', () => {
  const chat = button.dataset.preview === 'chat';
- previewImage.src = 'assets/' + (chat ? 'conversation.png' : 'workspace.png') + '?v=0.6.0';
+ previewImage.src = 'assets/' + (chat ? 'conversation.png' : 'workspace.png') + '?v=0.6.1';
  previewImage.alt = chat ? 'Valley AI 实际对话界面：节点引用、修改要求与共享成果时间轴' : 'Valley AI 实际画布：模块、版本、依赖与成果时间轴';
  document.querySelectorAll('[data-preview]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
 }));
