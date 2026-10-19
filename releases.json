@@ -1,1 +1,10 @@
-{"version":"0.1.0","date":"2026-10-19","mac":null,"windows":null}
+{
+  "version": "0.1.0",
+  "date": "2026-10-19",
+  "mac": {
+    "url": "https://github.com/CaliBG/valley-ai/releases/download/v0.1.0/Valley-AI-0.1.0-macOS-arm64.dmg",
+    "format": "DMG",
+    "size": "14.8 MB"
+  },
+  "windows": null
+}
