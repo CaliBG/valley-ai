@@ -2,7 +2,7 @@
 
 [打开官网](https://calibg.github.io/valley-ai/)
 
-面向编程 Agent 的桌面任务调度应用，适用于 macOS 和 Windows。此仓库存放介绍网页和公开安装包，应用源代码单独维护。
+面向编程 Agent 的桌面开发画布与任务调度应用，适用于 macOS 和 Windows。此仓库存放介绍网页和公开安装包，应用源代码单独维护。
 
 - `index.html`、`style.css`：产品介绍和响应式页面。
 - `site.js`、`releases.json`：已发布安装包的地址、版本、大小。
