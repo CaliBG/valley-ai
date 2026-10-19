@@ -1,6 +1,6 @@
 (async()=>{
  try{
-  const response=await fetch('releases.json');if(!response.ok)throw new Error('Unavailable');const release=await response.json();
+  const response=await fetch('releases.json',{cache:'no-store'});if(!response.ok)throw new Error('Unavailable');const release=await response.json();
   document.getElementById('version').textContent=release.version;
   for(const platform of ['mac','windows']){
    const asset=release[platform];if(!asset?.url)continue;
